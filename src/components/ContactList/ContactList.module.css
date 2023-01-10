@@ -1,0 +1,15 @@
+.id__list {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.id__numberList {
+    margin-right: 20px;
+    margin-left: 20px;
+}
