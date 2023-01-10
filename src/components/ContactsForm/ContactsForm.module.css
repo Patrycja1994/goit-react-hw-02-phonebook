@@ -1,0 +1,20 @@
+.formSubmit {
+    display: flex;
+    flex-direction: column;
+}
+
+.formSubmit__button {
+    max-width: 120px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.formSubmit label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.formSubmit input {
+    max-width: 180px;
+}

@@ -10,7 +10,7 @@ export class Filter extends Component {
             Find contacts by name
             <input className={style.inputFilter} type="text" value={value} name="filter" onChange={onChange}/>
         </label>
-        )
+        ) 
     }
 }
 
