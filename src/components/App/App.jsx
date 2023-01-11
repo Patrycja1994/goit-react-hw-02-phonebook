@@ -56,16 +56,19 @@ render() {
 
   return (
     <div  className={style.formBox}>
-  <h1>Phonebook</h1>
-  <ContactsForm onSubmit={this.addContacts}/>
+      <h1>Phonebook</h1>
+      <ContactsForm
+        onSubmit={this.addContacts} />
 
-  <h2>Contacts</h2>
-  <Filter value={this.state.filter} onChange={this.changes}
-  />
+      <h2>Contacts</h2>
+      <Filter
+        value={this.state.filter}
+        onChange={this.changes} />
 
-  <ContactsList  contacts={this.filtred()} deleteValue={this.deleteValue}
-  />
-
+      <ContactsList
+        contacts={this.filtred()}
+        deleteValue={this.deleteValue}
+      />
 </div>
   );
 }
